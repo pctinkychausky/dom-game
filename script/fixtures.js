@@ -1,0 +1,16 @@
+export const words = [
+  "crocodile",
+  "dinosaurs",
+  "dolphin",
+  "dragon",
+  "elephants",
+  "horse",
+  "leopard",
+  "lion",
+  "shark",
+  "snake",
+  "startle",
+  "t-rax",
+  "whele",
+  "wolf",
+];
