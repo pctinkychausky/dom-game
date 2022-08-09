@@ -37,7 +37,7 @@ if (savedWord) {
 function capitalizeFirstLetter(word) {
   return word.charAt(0).toUpperCase() + word.slice(1);
 }
-let imageName = capitalizeFirstLetter(savedWord);
+let imageName = capitalizeFirstLetter(pickedWord);
 const imageLink = document.getElementById("image");
 
 imageLink.src = `/animals-images/${imageName}.png`;
@@ -56,7 +56,7 @@ const goodGuessDisplay = document.getElementById("good-guesses");
 const badGuessDisplay = document.getElementById("bad-guesses");
 
 const guessesRemainingDisplay = document.getElementById("guesses-remaining");
-guessesRemainingDisplay.textContent = guessesRemaining;
+// guessesRemainingDisplay.textContent = guessesRemaining;
 
 const message = document.getElementById("message");
 
