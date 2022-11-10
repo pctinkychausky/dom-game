@@ -15,6 +15,7 @@ body {
 
 .card {
   width: 35rem;
+  height: 80%;
   text-align: center;
   border-radius: 25px;
   border-width: 10px;
@@ -34,4 +35,7 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    width: 80%;
+  }
 }
