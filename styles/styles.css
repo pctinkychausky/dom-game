@@ -36,12 +36,12 @@ body {
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .card {
-    width: 70%;
+    width: 65%;
   }
 }
 
 @media (min-width: 1024px) {
   .card {
-    width: 70%;
+    width: 65%;
   }
 }
