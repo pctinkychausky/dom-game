@@ -7,7 +7,14 @@ body {
   background-color: aqua;
 }
 
+.masterContainer {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
 .card {
+  width: 35rem;
   text-align: center;
   border-radius: 25px;
   border-width: 10px;
@@ -16,4 +23,15 @@ body {
 .alert {
   color: red;
   font-size: 30px;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .masterContainer {
+  }
+  .card {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
 }
