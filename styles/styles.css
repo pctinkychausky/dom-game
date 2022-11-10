@@ -12,3 +12,8 @@ body {
   border-radius: 25px;
   border-width: 10px;
 }
+
+.alert {
+  color: red;
+  font-size: 30px;
+}
